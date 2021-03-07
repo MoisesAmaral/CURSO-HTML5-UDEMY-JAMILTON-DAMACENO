@@ -1,0 +1,125 @@
+/*
+**CURSO DE HTML5 COM CSS3**
+**PROFESSOR JAILTON DAMACENO**
+**ALUNO MOISES AMARAL
+**DATA DE CRIAÇÃO - 07/03/2021
+**LICENÇA:: UDEMY CODE CURSOS**
+*/
+
+
+/*----------limpando configuraçoes padrão do navegador--------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', helvetica, sans-serif;
+    background: rgb(241, 241, 241);
+}
+
+/*----------INICIO -- layout da pagina------------------*/
+
+#cabecalho{
+background-color: #f7b600;
+padding: 15px;
+text-align: center;
+}
+#logo, #menu{
+    padding: 10px;
+}
+/*CONFIGURA PRINCIPAL + POSTAGENS*/
+#principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+#postagem{
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+/*CONFIGURA AREA LATERAL*/
+#lateral{
+    width: 240px;
+    float: right;
+}
+.conteudo-lateral{
+    background: #fff;
+    padding: 15px;
+   
+}
+.post-lateral{
+    padding: 5px;
+    font-size: 0.8em;
+    border-bottom: 1px solid #ccc;
+}
+/*CONFIGURA CAIXA SOCIAL*/
+.social{
+    float:left;
+    padding: 5px;
+    margin: 1px;
+    border: 2px solid #f7b600    
+}
+.clear{
+    clear: both;
+}
+/*CONFIGURA O RODAPÉ*/
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+/*----------FIM DO  LAYOUT DA PAGINA--------------*/
+
+
+/*----------Formatações do Menu--------------*/
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: #f7b600;
+}
+a:hover{
+    text-decoration: underline;
+   
+}
+
+#cabecalho a:link, #cabecalho a:visited{
+    color: #fff;
+    padding: 8px 12px;
+}
+#cabecalho a:hover{
+    color: #f7b600;
+    background: #fff;
+    text-decoration: none;
+}
+
+/*---------Formatações gerais------------------*/
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+h2{
+    color: #f7b600;
+}
+h3{
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+.branco{
+    color: #fff;
+}
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
